@@ -9,9 +9,6 @@ A utility Python library for automating GUI tasks on Windows, with a focus on pr
 - **Clipboard & Typing:** Copy/paste text, simulate key presses, and control Caps Lock.
 - **File Operations:** Wait for files to appear or update, check file existence, automate file saving dialogs.
 - **Browser Automation:** Open URLs in Chrome and ensure browser windows are in focus.
-- **Excel Automation:** Automate Excel's "Update All" operation.
-- **User Interaction:** Prompt for user confirmation with customizable exit behavior.
-- **Date Utilities:** Get today's date, format dates, and print stylized messages.
 
 ## Requirements
 

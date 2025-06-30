@@ -21,17 +21,18 @@ A utility Python library for automating GUI tasks on Windows, with a focus on pr
 ## Usage
 
 Import the library in your Python scripts:
-
+```python
 import sys
 sys.path.append(EFX_lib_dir_path)
 import EFX_lib as efx
+```
 
 Change the FIXED_PYG_IMG_PATH to the dir of your images to search in the screen.
 
 Example: Locate and click an image on the screen
 
 ```python
-procurar('button.png', click=True)
+efx.procurar('red_button.png', click=True, conf=0.95)
 ```
 
 Example: Wait for a file to be updated
